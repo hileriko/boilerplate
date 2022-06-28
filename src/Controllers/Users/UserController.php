@@ -157,7 +157,7 @@ class UserController extends BaseController
             return redirect()->back()->with('sweet-error', $e->getMessage());
         }
 
-        return redirect()->back()->with('sweet-success', lang('boileplate.user.msg.msg_insert'));
+        return redirect()->back()->with('sweet-success', lang('boilerplate.user.msg.msg_insert'));
     }
 
     /**
